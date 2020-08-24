@@ -20,7 +20,8 @@ RUN \
       curl \
       inotify-tools \
       nodejs \
-      nodejs-npm && \
+      nodejs-npm \
+      yarn && \
     npm install npm -g --no-progress && \
     update-ca-certificates --fresh && \
     rm -rf /var/cache/apk/*
